@@ -43,11 +43,13 @@ Apply Mean Removal
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Mean_Removal.png)](#features)
 
-Apply Autocorrelation
+Autocorrelation
+==========
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Autocorrelation.png)](#features)
 
-Finally find Beat per Minutes 
+Find Beat per Minutes 
+==========
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/BPM.png)](#features)
 
