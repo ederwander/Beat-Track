@@ -25,7 +25,7 @@ Envelope extraction from sub-bands
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/C_Envelope_follower.png)](#features)
 
-        Envelope Calculation
+*Envelope Calculation
 
 Apply Full Wave Rectification
 
@@ -43,7 +43,13 @@ Apply Mean Removal
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Mean_Removal.png)](#features)
 
+Apply Autocorrelation
 
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Autocorrelation.png)](#features)
+
+Finally find Beat per Minutes 
+
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/BPM.png)](#features)
 
 Beat Examples in the folder [AudioTest] (https://github.com/ederwander/Beat-Track/tree/master/AudioTest)
 
