@@ -16,7 +16,7 @@ sum all Envelopes to a single onset strength signal and apply auto-correlation t
 DWT(Discrete wavelet transform)
 ==========
 
-decompose the signal in six frequency bands using DWT
+Decompose the signal in six frequency bands (six level) using DWT
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Wavelets_-_Filter_Bank.png)](#features)
 
@@ -24,6 +24,25 @@ Envelope extraction from sub-bands
 ==========
 
 [![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/C_Envelope_follower.png)](#features)
+
+        Envelope Calculation
+
+Apply Full Wave Rectification
+
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Full_Wave_Rectification.png)](#features)
+
+Apply Low Pass Filter
+
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Low_Pass_Filter.png)](#features)
+
+Apply Downsample
+
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Downsample.png)](#features)
+
+Apply Mean Removal
+
+[![Beat-Track dualmode](https://github.com/ederwander/Beat-Track/raw/master/img/Mean_Removal.png)](#features)
+
 
 
 Beat Examples in the folder [AudioTest] (https://github.com/ederwander/Beat-Track/tree/master/AudioTest)
