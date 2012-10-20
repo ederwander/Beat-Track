@@ -10,6 +10,7 @@ the beat calculation is made breaking the signal in sub-band frequencies using D
 After get all sub-bands we need envelope each band,
 sum all Envelopes to a single onset strength signal and apply auto-correlation to find the peak position.
 
+![Deploy all the branches](http://desmond.imageshack.us/Himg442/scaled.php?server=442&filename=deployallthebranches.png&res=medium)
 
 ![ScreenShot](https://github.com/ederwander/Beat-Track/blob/master/img/Wavelets_-_Filter_Bank.png)
 
