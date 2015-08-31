@@ -43,13 +43,13 @@ EnvelopeDecimated=250;
 %Calc all sub-bands applying DWT(Discrete wavelet transform)
 %Using six frequency bands "Scheirer" (200, 400, 800, 1600, 3200, 6400)
 
-[SubBand1, numerator1, denominator1]=SubBandDWT(Signal,Fs,1,2000);
+[SubBand1, numerator1, denominator1]=SubBandDWT(Signal,Fs,1,200);
 
-[SubBand2, numerator2, denominator2]=SubBandDWT(Signal,Fs,2000,4000);
+[SubBand2, numerator2, denominator2]=SubBandDWT(Signal,Fs,200,400);
 
-[SubBand3, numerator3, denominator3]=SubBandDWT(Signal,Fs,4000,8000);
+[SubBand3, numerator3, denominator3]=SubBandDWT(Signal,Fs,400,800);
 
-[SubBand4, numerator4, denominator4]=SubBandDWT(Signal,Fs,8000,1600);
+[SubBand4, numerator4, denominator4]=SubBandDWT(Signal,Fs,800,1600);
 
 [SubBand5, numerator5, denominator5]=SubBandDWT(Signal,Fs,1600,3200);
 
